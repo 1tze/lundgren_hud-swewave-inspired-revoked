@@ -1,0 +1,82 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.8vmin;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hud {
+    display: none;
+    align-items: flex-end;
+    margin-bottom: 0.2em;
+    margin-left: 2em;
+    transition: 200ms ease-out;
+}
+
+.hud-box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 3.25em;
+    height: 3.25em;
+    border-radius: 0em;
+    overflow: hidden;
+    margin: 0 1em;
+    border: 1px solid black;
+}
+
+.fill {
+    width: 100%;
+    height: 0%;
+    transition: 200ms ease-out;
+}
+
+i {
+    position: absolute;
+    align-self: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.6em;
+    opacity: 0.502;
+    transition: 200ms ease-out;
+}
+
+.health {
+    background-color: #8d68e400;
+}
+
+.health .fill {
+    background-color: #325ba8;
+}
+
+.armour {
+    background-color: #8d68e400;
+}
+
+.armour .fill {
+    background-color: green;
+}
+
+.hunger {
+    background-color: #8d68e400;
+}
+
+.hunger .fill {
+    background-color: orange;
+}
+
+.thirst {
+    background-color: #8d68e400;
+}
+
+.thirst .fill {
+    background-color: #325da8;
+}
+
+.voice {
+    background-color: #8d68e400;
+}
+
+.voice .fill {
+    background-color: #1ee5b3;
+}
